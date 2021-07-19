@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.appforjenkins_script1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>appforjenkins_script1</name>
+        <script><![CDATA[var appforjenkins_script1 = Class.create();
+appforjenkins_script1.prototype = {
+    initialize: function() {
+    },
+// script
+    type: 'appforjenkins_script1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 09:21:35</sys_created_on>
+        <sys_id>2d9b07b72f9d3010352251172799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appforjenkins_script1</sys_name>
+        <sys_package display_value="appforjenkins" source="4c6b83372f9d3010352251172799b6ac">4c6b83372f9d3010352251172799b6ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="appforjenkins">4c6b83372f9d3010352251172799b6ac</sys_scope>
+        <sys_update_name>sys_script_include_2d9b07b72f9d3010352251172799b60c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 09:21:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
